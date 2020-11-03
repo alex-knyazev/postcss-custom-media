@@ -1,15 +1,15 @@
 {
-  "name": "postcss-custom-media",
+  "name": "postcss-custom-media-with-spaces",
   "version": "7.0.8",
   "description": "Use Custom Media Queries in CSS",
-  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "author": "Alex Knyazev <alex.knyazev.world@gmail.com>",
   "contributors": [
     "Maxime Thirouin"
   ],
   "license": "MIT",
   "repository": "postcss/postcss-custom-media",
-  "homepage": "https://github.com/postcss/postcss-custom-media#readme",
-  "bugs": "https://github.com/postcss/postcss-custom-media/issues",
+  "homepage": "https://github.com/alex-knyazev/postcss-custom-media/README.md",
+  "bugs": "https://github.com/alex-knyazev/postcss-custom-media/issues",
   "main": "index.cjs.js",
   "module": "index.es.mjs",
   "files": [
