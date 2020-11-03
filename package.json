@@ -8,7 +8,7 @@
   ],
   "license": "MIT",
   "repository": "postcss/postcss-custom-media",
-  "homepage": "https://github.com/alex-knyazev/postcss-custom-media/README.md",
+  "homepage": "https://github.com/alex-knyazev/postcss-custom-media/blob/custom-lib/README.md",
   "bugs": "https://github.com/alex-knyazev/postcss-custom-media/issues",
   "main": "index.cjs.js",
   "module": "index.es.mjs",
