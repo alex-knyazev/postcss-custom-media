@@ -1,4 +1,4 @@
-# PostCSS Custom Media [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">][postcss]
+# PostCSS Custom Media With spaces [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">][postcss]
 
 [![NPM Version][npm-img]][npm-url]
 [![CSS Standard Status][css-img]][css-url]
@@ -21,6 +21,41 @@
   /* styles for small viewport */
 }
 ```
+
+# IMPORTANT
+
+This project is a fork for https://github.com/postcss/postcss-custom-media to support custom media using with spaces aftel left and before tight brackets:
+
+In original lib you can use only media without brackets:
+
+```
+@media (--my-custom-media) {
+
+    #myBlock {
+        ...
+    }
+}
+
+```
+
+Here you can also use it with brackets: 
+
+
+```
+@media ( --my-custom-media ) {
+
+    #myBlock {
+      ...
+    }
+}
+
+```
+
+It is useful when we have deal with stylelint [media-feature-parentheses-space-inside](https://stylelint.io/user-guide/rules/media-feature-parentheses-space-inside#:~:text=Require%20a%20single%20space%20or,the%20parentheses%20within%20media%20features.&text=The%20fix%20option%20can%20automatically,problems%20reported%20by%20this%20rule) rule.
+
+PR is created to ad this to base lib: https://github.com/postcss/postcss-custom-media/pull/59
+
+New tests are created and passed to check that added functionality is worked.
 
 ## Usage
 

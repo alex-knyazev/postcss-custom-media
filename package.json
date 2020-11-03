@@ -1,6 +1,6 @@
 {
   "name": "postcss-custom-media-with-spaces",
-  "version": "7.0.8",
+  "version": "7.0.9",
   "description": "Use Custom Media Queries in CSS",
   "author": "Alex Knyazev <alex.knyazev.world@gmail.com>",
   "contributors": [
